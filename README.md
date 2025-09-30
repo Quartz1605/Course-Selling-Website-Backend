@@ -5,6 +5,7 @@ Welcome to the Source Start Course Selling Website Backend repository! We're exc
 ## Table of Contents
 
 - [Introduction](#introduction)
+- [Main Project Objective](#main-project-objective)
 - [Getting Started](#getting-started)
 - [Project Structure](#project-structure)
 - [API Endpoints](#api-endpoints)
@@ -15,6 +16,46 @@ Welcome to the Source Start Course Selling Website Backend repository! We're exc
 ## Introduction
 
 This repository contains the backend API for a course selling platform (similar to Udemy) built with Node.js, Express.js, and MongoDB. The platform supports both user and admin functionalities including course creation, purchasing, user authentication, and course management. As part of "Source Start," an open source event organized by CSI SPIT, we invite developers, backend enthusiasts, and API learners to contribute to this project by adding new features, improving security, enhancing database design, or optimizing the codebase.
+
+## Main Project Objective
+
+🎯 **PRIMARY GOAL: Build the Frontend Website**
+
+The main task for this project is to **create a complete frontend website** that connects to this backend API. We need contributors to build:
+
+### 🖥️ User Interface Pages Required:
+
+**User Side:**
+- 🔐 **User Signup Page** - Registration form with email, password, name, age fields
+- 🔐 **User Login Page** - Login form with email and password
+- 🎓 **Courses Catalog Page** - Display all available courses from `/courses` endpoint
+- 🛒 **My Purchased Courses Page** - Show user's purchased courses from `/user/purchases`
+- 💳 **Course Purchase Page** - Course details and purchase functionality
+
+**Admin Side:**
+- 📝 **Admin Signup Page** - Admin registration form
+- 📝 **Admin Login Page** - Admin login form
+- ➕ **Create Course Page** - Form to create new courses
+- ✏️ **Edit Course Page** - Form to update existing courses
+- 📄 **My Created Courses Page** - Dashboard showing admin's created courses
+- 🗑️ **Course Management** - Delete and manage courses
+
+### 🛠️ Frontend Technologies You Can Use:
+- **React.js** (Recommended)
+- **Vue.js**
+- **Angular**
+- **Vanilla JavaScript with HTML/CSS**
+- **Next.js**
+- **Svelte**
+
+### 🔗 Integration Requirements:
+- Connect to all backend API endpoints listed below
+- Implement JWT token authentication and storage
+- Handle API responses and error states
+- Create responsive and user-friendly design
+- Implement proper routing between pages
+
+**This is a perfect project for frontend developers to showcase their skills while learning API integration!**
 
 ## Getting Started
 
@@ -124,14 +165,24 @@ We will review your PR and merge it if it meets the project's standards.
 
 ## Features to Implement
 
-Here are some ideas for contributions:
+### 🎯 Priority 1: Frontend Development (MAIN OBJECTIVE)
+- **🖥️ Complete Frontend Website** - Build all user and admin pages listed above
+- **🔗 API Integration** - Connect frontend to all backend endpoints
+- **🎨 UI/UX Design** - Create attractive and responsive user interface
+- **🔐 Authentication Flow** - Implement login/signup with JWT token management
+- **📱 Responsive Design** - Ensure website works on all devices
+- **⚡ State Management** - Implement proper state management (Redux, Vuex, etc.)
+- **🧭 Routing** - Set up client-side routing for smooth navigation
 
+### 🎯 Priority 2: Backend Enhancements
 - **Input Validation:** Enhance Zod schemas for better data validation
 - **Email Verification:** Add email verification system for user registration
 - **Password Reset:** Implement forgot password functionality
 - **Course Categories:** Add category system for better course organization
 - **Search & Filter:** Implement course search and filtering capabilities
 - **Rating System:** Add course rating and review functionality
+
+### 🎯 Priority 3: Advanced Features
 - **Payment Integration:** Integrate with payment gateways (Stripe, Razorpay)
 - **File Upload:** Add functionality to upload course materials and videos
 - **Notifications:** Implement email/SMS notifications for purchases
